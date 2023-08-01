@@ -1,0 +1,70 @@
+310723
+
+ > SDLC (Software Development Life Cycle)
+   --------------------------------------
+   > Example explaination
+     > ABC Bank - They need the s/w to track loan applicaions(requirements)
+       > Naresh IT - IT Company
+ 
+ > SDLC Phases:
+   ------------
+   > There are seven different life cycle phases of SDLC:
+     > Requirement gathering/capturing
+     > Analysis
+     > Designing
+     > Coding
+     > Testing
+     > Development
+     > Support/mantainance
+ 
+010823
+
+ > SDLC Models:
+   ------------
+   > Waterfall model
+   > Spiral model
+   >
+
+
+ > Agile Model:
+   ------------
+   > Sprint
+     > It is a timeframe (generally 2-4 weeks)
+     > With in this given time all SDLC phases should be complete
+     > Since IT doesn't work on Sat and Sun total days for a 2 week sprint will be over 10 days
+   
+   > Spint planning
+     > Sprint 1 --> July31 - Aug11
+     > Sprint 2 --> Aug14 - Aug25
+     > Sprint 3 --> Aug28 - Sep8
+     
+     > Different requirement for this sprint like
+       > QA
+       > DevOps
+     
+     > Participants
+       > Developers
+       > QA
+       > DevOps
+       > BA
+       > Scrum master
+       > Product owner
+
+   > Stories
+     > User stories: requirement of customer
+
+   > Product Backlogs
+     > This is the bucket where we will keep oor userstories and it woild be picked
+       up once they needed in the sprint
+   
+   > Scrum Meeting
+     > dsm/scrum/standup meeting
+     > What we have done yesterday
+     > What to do today
+     > Any blocker
+
+   > Retrospective meeting
+     > On last day of sprint
+       > What went good
+       > What went bad
+       > Any suggestions
