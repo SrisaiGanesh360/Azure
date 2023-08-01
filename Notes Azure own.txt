@@ -23,8 +23,7 @@
    ------------
    > Waterfall model
    > Spiral model
-   >
-
+   
 
  > Agile Model:
    ------------
