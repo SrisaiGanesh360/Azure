@@ -85,3 +85,40 @@
  > Burn up chart
    -------------
    > 
+
+-----------------------------------------------------------------------------------------------------------------------
+
+030823
+
+ > Azure Repo
+   ----------
+   > Storage of code
+   > Developer will be using this space in store their code 
+
+   > Azure devops account: Azure board, azure repo, build pipleline, artifact, release pipleline.
+   > Azure cloud account: App services, funcitionapp, sql, vm etc.
+
+   > Azure devops account
+     > dev.azure.com
+       > Start Free
+         > Create project
+           > Repo
+             > Initialize
+               
+   > New branch
+     > After initialize click on main dropdown
+       > create new branch
+         > branch based on main
+           > content will be taken from main branch
+
+ > Assignment:
+   1.  create the account in azure devops
+   2.  create the organization and project.
+   3.  Create below two repo:
+       FE
+       BE
+   4.  Add 2 branches in each
+       FE--->A barnch and B branch
+       BE--> X branch and Y brancch
+
+  azuretraininghyd1@gmail.com
