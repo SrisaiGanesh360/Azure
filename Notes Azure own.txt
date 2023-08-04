@@ -122,3 +122,58 @@
        BE--> X branch and Y brancch
 
   azuretraininghyd1@gmail.com
+
+----------------------------------------------------------------------------------------------------------------------
+
+040823
+
+ > Pull requirements
+   -----------------
+   > Getting code from branch to another branch
+     > Subbranch to main branch, main branch to subbranch, subbranch to subbranch
+     > Example
+       > FAcebook login page not working
+       > Developer has to debug
+       > Developer pull request to get the latest code from main (5000 LOC) to his (developer) branch
+       > Developer 5010 LOC 
+       > Main branch makes pull request 5010 LOC
+
+ > Azure Board
+   -----------
+   > Work items
+     > Userstories
+     > Task
+     > EPIC
+     > Issue/bug
+
+   > Example
+     > Facebook login page
+       > Correct Username and Incorret Password
+       > Incorret Username and Correct Password
+       > Blank Username and correct Password
+       > Blank Username and Incorret Password
+       > Correct Username and blank Password
+       > Blank Username and blank Password
+       > Incorret Username and blank Password
+       > Incorret Username and incorrect Password
+       > Username should be only accepting alphanumeric characters
+     
+     > NareshIT training EPIC
+       > Azure devops
+       > AWS devops
+       > DataScienc
+       > Java
+
+ > Assignment
+   > Create 3 branches A,B,C
+   > Make some changes to invdividual branches
+   > Merge from A to Main
+   > Merge from B to Main
+   > Merge from C to Main
+   > Merge from Main to C
+   > Merge from A to C
+   > Avoid merge conflict ( using diff content )
+   > azuretraininghyd1@gmail.com
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
