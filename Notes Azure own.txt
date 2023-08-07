@@ -177,3 +177,59 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
+070823
+
+ > Azure Board:
+   ------------
+   > Planning phases
+     > Stories ( Not for Azure DevOps)
+     > EPIC
+       > Similar type of tasks
+     > Issues/bug/defect
+     > Task
+
+     > Epic
+       > Epic generally created by owner
+       > Create new Epic
+         > Azure Board
+           > Epic
+             > New Epic
+               > Title
+               > Unassigned
+                 > Will be unassigned by default
+                 > Should be assigned to Lead or Scrum master
+               > State
+                 > To Do
+                 > In progress/Doing
+                 > DOne
+               > Area
+               > Description
+               > Planning
+                 > Priority
+                 > Start Date
+                 > Target Date
+               > History
+               > Link
+                 > New Task or Existing tasks
+                   > Link type 'Child'
+                   > Work item in Link
+                     > You can choose multiple
+
+               > Attachment
+
+       > Follow
+         > To observe assigned Epics
+
+     > Task 
+       > Create Task
+  
+ > Assignment
+   ----------
+   > Create Epic, Task.
+   > Link it properly according to their need
+   > Take a SS and send it to azuretraininghyd1@gmail.com
+   > BBC Telecast
+     > India News
+       > Central News
+         > Sports News
+         
