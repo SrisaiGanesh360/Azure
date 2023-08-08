@@ -233,3 +233,13 @@
        > Central News
          > Sports News
          
+----------------------------------------------------------------------------------------------------
+
+080823
+
+ > Backlogs
+   --------
+   > Component of board, where we'll keep all the items like stories, tasks, epic
+   > Options
+     > Move to iteration
+       > Move to required sprint
