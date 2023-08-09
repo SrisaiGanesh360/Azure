@@ -243,3 +243,47 @@
    > Options
      > Move to iteration
        > Move to required sprint
+
+-----------------------------------------------------------------------------------------------------
+
+090823
+
+ > Github
+   ------
+   > Git is an alternate solution of Azure Repository
+
+   > Git UI
+     > github.com
+       > Create a new repository
+
+   > Gitbash
+     > git -- version // to know github version
+     > git init // in this locaiton empty repo has been initialized
+     > git status
+     > touch program.txt // creating a text file named as program
+     > vi program.txt // vi is the editor 
+       > i // i for ink or insert
+         > write program/ story
+         > Esc then :wq // to come out of editor
+     > cat program.txt // used to display content of a file
+     > git commit -m "any commit message" // you have to make it to staging area before commit
+     > git add. // to add it to staging area
+     > git commit -m "Hello"
+
+ > Assignment
+   > Create a new repository
+     > Ass one branch
+     > See the changes from main is coming to new branch
+     > Make some changes to new branch
+     > Create pull request
+     > Go and explore with git cmd prompt
+
+     > Cmds
+       > git --version
+       > git init
+       > git status
+       > tocuh program.txt
+       > vi program.txt 
+         > to enter type 'i' and to save and quit type 
+         > esc button then :wq
+         
