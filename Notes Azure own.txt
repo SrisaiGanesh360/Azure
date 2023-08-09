@@ -261,6 +261,7 @@
      > git init // in this locaiton empty repo has been initialized
      > git status
      > touch program.txt // creating a text file named as program
+     > ls // to check list of files
      > vi program.txt // vi is the editor 
        > i // i for ink or insert
          > write program/ story
@@ -283,7 +284,8 @@
        > git init
        > git status
        > tocuh program.txt
+       > ls
        > vi program.txt 
-         > to enter type 'i' and to save and quit type 
-         > esc button then :wq
+         > to enter type 'i'  
+         > and to save and quit type esc button then :wq
          
