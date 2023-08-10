@@ -289,3 +289,28 @@
          > to enter type 'i'  
          > and to save and quit type esc button then :wq
          
+-----------------------------------------------------------------------------------------------------------------
+
+100823
+
+       > git config --global user.name
+       > git config --global user.email
+
+       > git branch // to know how many branches and what 
+       > git branch ganeshbranch // to create new branch
+       > ls // to see list of files
+       > git checkout ganeshbranch // to switch branches
+
+ > Clone existing repository
+   -------------------------
+   > Click on Clone in Azure repo and copy the clone link
+   > Create a new local file and open it with GUI
+   > give source location i.e., clone link that you copied earlier
+
+ > Assignment
+   ----------
+   > Complete till crete branch and switch in Git Bash
+   > Clone the project from Azure repository to local
+   > Add file/files in local 
+   > Stage the local , commit, push 
+   > verify the local code is pushed to Azure repository
