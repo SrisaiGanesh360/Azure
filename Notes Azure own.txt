@@ -314,3 +314,30 @@
    > Add file/files in local 
    > Stage the local , commit, push 
    > verify the local code is pushed to Azure repository
+
+---------------------------------------------------------------------------------------------------------------------
+
+140823
+
+ > Linux commands:
+   ---------------
+   > pwd (Present Working Directory)
+   > Commands
+     > pwd // in the required directory
+     > mkdir Ganesh // command used to create to make directory i.e., new folder in pwd
+     > cd .. // to change directoory from sub folder to main folder i.e., to change directory from inner folder to outer folder
+     > ls  // displays content of current pwd 
+     > touch aws.txt // to create new file
+     > ls // you can see the new file too
+     > vi India.txt // to open editor to enter data
+       > i // to start entering data
+       > esc 
+       > :wq 
+         > enter // to save data
+     > cat India.txt // to read the file
+     > clear // to clear the screen
+     
+     > cp aws.txt /d/Code/AClass // to copy file from one directory to other required directory
+     
+     > cd Ganesh // to change directory to another folder
+     > mv India.txt /d/Code/AClass/Ganesh
