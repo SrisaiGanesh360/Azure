@@ -336,8 +336,8 @@
          > enter // to save data
      > cat India.txt // to read the file
      > clear // to clear the screen
-     
+
      > cp aws.txt /d/Code/AClass // to copy file from one directory to other required directory
      
      > cd Ganesh // to change directory to another folder
-     > mv India.txt /d/Code/AClass/Ganesh
+     > mv India.txt /d/Code/AClass/Ganesh // to move one file from a folder to another folder 
