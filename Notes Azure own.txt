@@ -341,3 +341,46 @@
      
      > cd Ganesh // to change directory to another folder
      > mv India.txt /d/Code/AClass/Ganesh // to move one file from a folder to another folder 
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+160823
+
+     > rm // to delete the file from the current location
+       > rm aws.txt
+       > ls
+         > 'New Folder' / Ganesh/....
+       > 
+     > rmdir // to delete the directory
+     > mvdir // to move the directory from one to another location
+     > history // to check the history of previously used commands
+       > history 10 // last 10 commands
+     > free // used to get the free space of the system
+     > free -k // used to get the free space of the system in KBs
+     > sort India.txt // Items of the file are arranged in alphabatical order
+     > grep App India.txt // to find whether Apple is there or not in India.txt
+       > Apple // result
+     > sudo // used for security purpose in Linex OS
+     > echo how are you // to display a message
+       > how are you // result
+     > id // to get uid gid groups
+       > id -u // to get only uid
+       > id -g // to get gid only
+     > eval // to execute arguments in shell command
+     > whoami // to get the user of the system
+     > cut -c2-5 India.txt 
+       > Mango // how it starts
+         12345
+         Orange
+         123456
+       > ango // result 
+         pple
+         anan
+         rang
+         uava
+         ppli
+         
+
+ > Assignment
+   > Find commands to get the first 10 history of the commands
+   > Find commands to get the content in descending order
