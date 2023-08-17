@@ -384,3 +384,9 @@
  > Assignment
    > Find commands to get the first 10 history of the commands
    > Find commands to get the content in descending order
+
+-----------------------------------------------------------------------------------------------------------------
+
+170823
+
+> Azure Portal
