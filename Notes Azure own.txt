@@ -390,3 +390,47 @@
 170823
 
 > Azure Portal
+
+---------------------------------------------------------------------------------------------------------------
+
+210823
+ 
+ > Linux
+   -----
+   > Linux is called as Kernel 
+   > It is being supported by Ubuntu
+   > It is open source ( Free )
+   > It is highliy secure
+   > Multitasking
+   > No need to restart it frequently
+   > No frequent updates
+
+ > App Services
+   ------------
+   > Resource group is to categorize
+   > Publish 
+     > Code
+     > Docker Container
+     > Static Web App
+   > Runtime stack
+     > STS // Short Term Support
+     > LTS // Long Term Support
+   > Operating system
+
+ > Deployment
+   ----------
+   > Download publish profile
+   > Use XML Formatter // online
+     > Copy publish profile code
+     > Beautify
+     > Copy it back to your clipboard
+   > Get winscp // or similar software would work 
+     > from publish profile 
+       > paste publish url in publisher name
+       > Username
+       > Password
+       > Login
+     > Select the code you wanna deploy 
+
+ > After work go to home page in Azure portal 
+   > Go to resources and delete unwanted files 
