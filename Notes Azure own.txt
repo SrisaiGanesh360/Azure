@@ -434,3 +434,53 @@
 
  > After work go to home page in Azure portal 
    > Go to resources and delete unwanted files 
+
+----------------------------------------------------------------------------------------------------------
+
+220823
+
+ > Deployement through CICD method
+   > Using Azure Devops account
+   > Deploy code using gitUI
+     > Open the code loction in the local storage 
+       > Right click on project Git GUI
+       > Clone Existing Repository
+       > Go to the exisiting repo 
+       > Click on clone
+         > give it to souce location
+       > Target location is your local project location
+       > Then copy your new code to that project 
+     > Open GIT GUI in the same location
+       > click on Rescan
+       > Stage 
+       > Commit 
+         > Give some message
+       > Push 
+       > All the pushed code will be pushed to Master branch
+
+       > Open this link to increase the parallalism of the project
+         > https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR63mUWPlq7NEsFZhkyH8jChUMlM3QzdDMFZOMkVBWU5BWFM3SDI2QlRBSC4u
+
+       > After gettign apporved
+         > go to your project
+         > Create pipeline
+         > Use Classic editor
+         > Select a source
+           > Azure Repos Git
+         > Empty Job
+         > Add tasks
+           > Copy Files to:
+           > Publish Artifact: Drop // Publish build artifact
+
+           > In the Copy Files to:
+             > Select source
+             > Target Folder
+               > Copy the command in the i
+
+           > Publish Artifact: Drop
+             > Dont change Display name, Path to publish
+
+         > Go to Pipeline
+           > Save and cue
+
+   > 
