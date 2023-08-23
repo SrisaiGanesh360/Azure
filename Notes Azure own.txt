@@ -439,7 +439,7 @@
 
 220823
 
- > Deployement through CICD method
+ > Deployement
    > Using Azure Devops account
    > Deploy code using gitUI
      > Open the code loction in the local storage 
@@ -484,3 +484,58 @@
            > Save and cue
 
    > 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+230823
+
+ > Service connection
+   > Go to project settings
+   > Resource Manager 
+   > New Service Connection
+   > Service connection
+     > Subscription ID from Azure Portal
+       > select your subscription
+         > In Essentials click on subscription ID // copy
+     > Subscription name
+     > Service Principal 
+
+   > Everytime new Service connection is created  new Active directory is required
+   > Azure Active Directory
+     > App Registraiotions
+       > New App Registration
+   
+   > Tenant ID // from Azure Active Directory
+   > Service Principal Key // from Azure Active Directory Certificates and secrets
+   > Service Connection name // any
+   > Grant Permission to all pipelines
+
+   > In Azure Portal there need to grant permission
+     > Subscription
+       > Access control (IAM) // Identity Access Management
+         > Grant Access to resource
+           > Add role assignment
+             > Privilaged member
+               > Contributor
+                 > Members // App registraion name
+                 
+   > Now Save // In AzureDevops
+
+ > New Release Pipeline
+   > Agent job +
+     > Azure App Serice Deploy
+       > Azure subscription
+       > Package or folder
+         > Select (build) folder
+   > Save 
+   > Create release
+
+ > New Release Pipeline
+   > Edit pipeline
+
+ > CICD
+   > Continuous Integratoin Continuous Deployment
+   > Go to Edit pipline
+     > Enable CI
+   > GO to release Pipeline
+     > Click on flash symbol
+     
