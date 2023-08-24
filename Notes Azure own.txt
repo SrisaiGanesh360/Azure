@@ -538,4 +538,20 @@
      > Enable CI
    > GO to release Pipeline
      > Click on flash symbol
-     
+
+------------------------------------------------------------------------
+
+240823
+
+ > SQL
+  > Structured Query Language
+ 
+ > Azure Portal
+   > SQL database
+     > Create SQL database
+       > Create SQL Database server
+
+ > Querry editor
+   > login to server
+
+ > Add IP Firewall rules in server settings
