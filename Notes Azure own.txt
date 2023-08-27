@@ -524,13 +524,20 @@
    > Agent job +
      > Azure App Serice Deploy
        > Azure subscription
+         > It is the Service pipeline that was created in azure portal
        > Package or folder
          > Select (build) folder
    > Save 
    > Create release
 
- > New Release Pipeline
-   > Edit pipeline
+   > Now the application gives error "You do not have permission to view this directory or page." // browse in Azure portal
+     > To fix this 
+
+  > Release Pipeline logs
+   > Edit release
+   > Pipeline
+   > Edit Task
+   > Select drop folder in the package
 
  > CICD
    > Continuous Integratoin Continuous Deployment
@@ -555,3 +562,12 @@
    > login to server
 
  > Add IP Firewall rules in server settings
+
+----------------------------------------------------------------------------------
+
+250823
+ 
+ > Primary Key
+   > Create table [dbo]. [Employee2]
+     (EmpIDD varchar(10) primary key,
+     Empo)
