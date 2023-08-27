@@ -542,8 +542,9 @@
  > CICD
    > Continuous Integratoin Continuous Deployment
    > Go to Edit pipline
-     > Enable CI
-   > GO to release Pipeline
+     > In Triggers
+       > Enable CI
+   > GO to release Pipeline // for CD
      > Click on flash symbol
 
 ------------------------------------------------------------------------
