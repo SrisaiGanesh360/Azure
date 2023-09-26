@@ -572,3 +572,134 @@
    > Create table [dbo]. [Employee2]
      (EmpIDD varchar(10) primary key,
      Empo)
+
+------------------------------------------------------------------------------------
+
+040923
+ 
+ > 
+
+------------------------------------------------------------------------------
+
+050923
+
+ > Queues: 
+   > 
+
+---------------------------------------------------------------------------------------
+
+060923
+
+ > Website creating 
+   > App services: Creating frint end application - Developer will add code to it
+   > Function applicaion
+   > Azure SQL
+
+   > Function app in azure portal search
+     > Create Function App
+       > Runtime stack the required backend application
+       > 
+
+---------------------------------------------------------------------------------------------
+
+070923
+
+ > 
+
+------------------------------------------------------------------------------------------------------
+
+130923
+
+ > 
+
+--------------------------------------------------------------------------
+
+140923
+
+ > Sonar Cloud
+   > Is the cloud based code analysis tool designed to detect code quality in differnet languages
+   > It will ensure that code would be maintained, should be reliable and security if code
+
+ > Bug
+   > If the application is not working according to the customer's requirement
+
+ > Vulnerability
+   > A piece of code, where any intruder can attack
+
+ > Code Fixes
+   > The change in the code that leads to fixing of the defect
+
+ > Code Smell
+   > A maintainability issue that make code confusing and difficult to Manage
+   > It is not the issue/bug. Its not technical issue
+
+ > Hotspot review
+   > A security hotspot highlights a security sesitive piece of code that developer has to review
+   
+-----------------------------------------------------------------------------------------
+
+190923
+
+ > 
+
+----------------------------------------------------------------------------------------------------------------
+
+200923
+ 
+ > Virtual Machine
+   > Portal.azure
+     > Search Virtual Machine
+     > Create a virtual machine
+
+--------------------------------------------------------------------------------------------------------
+
+260923
+ 
+ > Kubernetes
+   > Go to Protal.Azure.com
+     > Search for Kubernetes
+       > Kubernetes services
+       > Create Kubernetes cluster ( AKS )
+         > Select resource group
+         > Cluster preset configuration
+           > It has deployemnt which come with pay as you go
+           > Select production standard
+         > Kubernetes cluster name
+           > user defined
+         > Region
+           > user defined
+         > Availability zones // generally all zones are checked
+         > AKS pricing tier
+           // Kubernetes node runs your workload by placing conatianers into pods 
+           > In free account 10 nodes 
+           > In Standard 5000 nodes
+         > Kubernetes versions
+           > Default // based on user required
+         > Automatic upgrade
+           > Enabled with patch
+             // Patch is update to required software which can be a times based 
+         > Review + Create
+         > Region can be an issue which gives error for validation
+       
+       > After creation we have to connect it
+         > Click on Connect
+           > Cloud shell
+             > 1 Open Cloud Shell
+               2 Run the following commands // if you click on Open Cloud shell those two commands will run automatically
+             > Create Storage // new popup
+               // we can see the commands automatically ran
+               > om command type kubectl get nodes // to see nodes
+       
+       > vi azure-vote.yaml // to deploy front end code
+         > i // to type something
+           > we're deploying microsoft created voting application
+         > Copy paste
+         > esc :wq // to exit editor and save
+         > cat azure-vote.yaml // to view the edited code
+         > kubectl apply -f azure-vote.yaml // copy paste
+         > kubectl get service azure-vote-front --watch
+         > Copy EXTERNAL-IP
+           > paste it in new tab and run it
+             > Application will be deployed
+
+---------------------------------------------------------------------------------------------------------------------------------------
