@@ -682,7 +682,7 @@
          > Region can be an issue which gives error for validation
        
        > After creation we have to connect it
-         > Click on Connect
+         > Click on Connect to clustervi 
            > Cloud shell
              > 1 Open Cloud Shell
                2 Run the following commands // if you click on Open Cloud shell those two commands will run automatically
@@ -703,3 +703,94 @@
              > Application will be deployed
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+
+270923
+
+ > Kubernetes Scenario 2:
+ -------------------------
+   > Pre-requisites 
+     > Docker file 
+       > Azure.devops
+         > Import Repo 
+           > New repositor with user defined name is created
+             > It'll be in master pipe
+             > It'll have all the required files
+     
+     > ACR
+       > Portal.azure
+         > Container Registry // search
+           > Create container registry
+             > Registry name // user defined
+             > Pricing 
+               > Basic
+             > Create
+
+     > AKS 
+       > Create Kubernetes cluster
+         > AKS Pricing
+           > Free
+         > Review + Create
+     
+     > Service Connection 
+       > Settings of your repo in Azure.devops
+         > New Kubernetes service connection
+           > Azure Subscription
+       > Create build pipeline
+         > Build 
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+280923
+
+ > A Kubernetes cluster consists of set od worker machines, called nodes, that run containerirzed applications. Every cluster has at least one worker node.
+ > The woker node(s) host the Pods  that are the components of the application workload.
+ 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+290923
+
+ PowerShell commands
+  > Azure Portal
+    > Search for Cloud Shell // it is just right to search bar
+    > Create Storage
+    > Then Switch to Powershell
+   
+    > Powershell commands
+      > Login to account
+     > See subscription
+      > See resource group, create/delete
+      > App services , create/ delete
+      > Virutal Machine, create/ delete
+      > Storage
+      
+    > https://github.com/CKNAVIN1009/Azure-PowerShell-CheatSheet
+    
+      > See Subscription
+        > Get-AzSubscription
+ 
+      > See Subscription in a specific tenent
+        > Get-AzSubscription -TenantId "xxxx-xxxx-xxxxxxxx"
+ 
+      > Choose subscription
+        > Select-AzSubscription –SubscriptionID “SubscriptonID” 
+ 
+      > Retrieving Resource Groups
+        > Get-AzResourceGroup
+      
+      > Get a specific resource group by name
+        > Get-AzResourceGroup -Name "myResourceGroup”
+
+      > Create a new Resource Group
+        > New-AzResourceGroup -Name 'myResourceGroup' -Location 'westeurope' #Creates a new resource group in West Europe called "myResourceGroup"
+          > New-AzResourceGroup -Name 'srisaisg' -Location 'westeurope'
+
+      > Delete a Resource Group
+        > Remove-AzResourceGroup -Name "ResourceGroupToDelete"
+          > Remove-AzResourceGroup -Name "srisaisg"
+
+      > Create Storage Account
+        > New-AzStorageAccount -ResourceGroupName
+          “myResourceGroup” -Name “storage1” -Location
+          “westeurope”-SkuName “Standard_LRS”
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
