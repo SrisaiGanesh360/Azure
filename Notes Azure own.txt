@@ -1,3 +1,51 @@
+260723
+ 
+ > Cloud
+   > Amazon web services, 2006
+   > Microsoft Azure, 2023
+   > Google Cloud Platform
+
+   > Features of Cloud computing:
+     > Flexibility
+     > Security
+     > Scalability
+     > No Physical Device
+     > Easy Maintenance
+ 
+ > What is DevOps?
+   > A set of practice intended to reduce time between committing a change to a system 
+     and change being placed into normal production, while ensuring high quality
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+270723
+ 
+ > DevOps Componets
+   > Azure Boards
+   > Azure Repos
+   > Azure Pipelines
+   > Azure Test Plans
+   > Azure Artifact
+
+ > Architecture
+   > Divided into two part
+     > Azure DevOps
+     > Azure Cloud
+
+     > Azure DevOps has
+       > Azure Boards
+         > All planning part
+       > Azure Repos
+         > All scripts will be written here from FrontEnd, BackEnd ( stored )
+       > Build Pipeline
+         > Steps to compile code from Azure Repo
+       > Artifact
+         > Result of build pipeline is Artifact ( Output )
+       > Release Pipeline
+         > 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 310723
 
  > SDLC (Software Development Life Cycle)
@@ -794,3 +842,31 @@
           “westeurope”-SkuName “Standard_LRS”
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+031023
+
+ > Delete a storage account
+  > Remove-AzStorageAccount -ResourceGroupName "storage" -AccountName "storageaccount1"
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+041023
+
+ > Terraform 
+   > Is an infrastructure as code tool that lets you build, change and version infrastructure safely and effieciently.
+   > This includes low-level components like compute instances, storage, and networking; and high-level components like DNS entreis and SaaS features
+
+  > 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+061023
+
+ > Ansible
+   > https://docs.ansible.com/ansible/2.9/modules/list_of_cloud_modules.html
+
+   > Portal.azure.com
+     > at the search open command
+       > select bash 
+         > create storage
+         

@@ -1,0 +1,422 @@
+Created Aug 7Aug 7
+Hi Team,
+
+Please find the class notes and assignment till today:
+
+SDLC-2
+AGILE-
+Devops(repo pipeline ...)
+Github
+Linux
+App services
+Storage
+Azure SQL
+AAD
+VM
+Function app
+Sonarqube/Sonarcloud
+CI/CD with github/Repo
+Docker
+Kubernetes(AKS)
+Terraform:
+Ansible:
+Powershell
+
+
+
+Cloud introuduction:
+--------------------
+
+In year of 2000s
+
+In year of 2008-->128 gb
+
+
+--->People were using basic keypad phone.
+200MB
+-->Store contacts.
+--->Messages.
+-->Cricket/sudoko
+
+IN year of 2010s,---->Smartphone
+-->Connect with world(social media)
+
+
+In year of 2006--->
+AWS came with the feature cloud computing.
+Amazon web services.
+
+MS--->AZure in 2010
+Google-->GCP(Google cloud platform):
+
+Feature of Cloud computing:
+---------------------------
+1.  Flexibility.
+2.  Security.
+3.  Scalability.
+4.  No physical device.
+5.  Easy maintainance.
+example:
+5 tb data storage-->5 tb HDD/LAptop--->work is over
+User of above storage???
+6 TB
+Cloud-->azure storage
+5 tb-->use that and pay for that until needed.
+1 tb-->
+10 tb
+
+----------------------
+Devops:
+Facebook:100 live users
+Post: 20
+Reels:  70
+Marketplace: 5
+Messenger:5
+
+Live user: 5-->5000 LOC
+developer: 5100 LOC
+
+Daily sesssion: 7:30 to 9 AM
+20 minutes: doubt clearing
+Daily recording(7 days)
+Notes
+
+
+===================================
+Devops
+Development + Operations
+
+Flipkart 100 customer
+Someone place an order in flipkart
+dell laptop
+---->OrderID
+---->Track the product/Tracking ID--->some error(bug)defect
+--->cancel order
+--->Change in the shipping address
+--->Additional information
+
+Any application
+Coding
+Flipkart live 4000 LOC(lines of code)
+Developer-->+50
+-10 loc
+Final code =4040
+
+NareshIT application:
+
+Live candidates:  500 LOC
+developer: 495
+-----------------------------
+azure devops:
+
+dev.azure.com
+
+Azure cloud:
+portal.azure.com
+
+
+https://t.me/+DCuYhM1MFSxhOGI9
+
+Devops:
+Dev+Operations
+
+Zoom application:
+Issue: End receiver is not able to hear speaker.
+Zoom -->development
+Live code:  500
+developer: 520
+
+
+
+
+
+====================================
+
+SDLC(Software development life cycle):
+-------------------------------------
+
+ABC Bank--->They need the s/w to track their loan applications(requirments)
+
+Naresh IT-->IT company
+
+Naveen-->I have land of 1000 SFT in Ameerpet
+Requirement:  To consturct 3 bhk flats of 5 storey building.
+
+SDLC phases:
+-----------
+There are seven different life phases of SDLC:
+1.  Requiremnt gathering/capturing.
+2.  Analysis(BRS-->SRS-->FRS)
+3.  Designing.
+4.  Coding.
+5.  TEsting.
+6.  Deployment.
+7.  Support/mantainance.
+
+IT Techies:
+developer
+QA/Testing
+Devops
+BA
+Support
+
+
+public static void main(String args[])
+{
+dfdfd
+{dfdf
+df{
+}
+}
+
+==========================================
+SDLC Model:
+1.  Waterfall model.
+2.  Spiral model.
+3.  Iterrative and incremental model.
+4.  Rapid application development model
+5.  Prototype model.
+6.  Agile model.
+
+Friendsbook
+
+1.  Waterfall model:
+
+RG
+A
+D
+C
+T
+Dep
+Support
+
+Agile Model:
+------------
+facebook development:
+200 requirement
+Login page
+logout page
+home page
+reel upload
+reel view
+marketplace upload
+marketplace view
+messenger
+
+
+Sprint:
+--------
+Time frame 2 weeks, 3 weeks, and 4 weeks.
+10 working days.
+
+Sprint planning:
+----------------
+Sprint 1-->July 31--Aug 11
+Sprint 2-->Aug 14--Aug 25
+Sprint 3-->Aug 28--Sep 8
+
+2 developers
+Ramesh:  10*5=50 hours
+Suresh:  8*5--40 hours
+2 QA
+1 DEvops
+6 hours
+1 hr: customer meeting
+3 hr: build pipeline
+2 hr: implmentation
+
+
+2 different requirment for this spirnt
+
+PArticipants:
+Developers
+QA
+Devops
+BA
+Scrum master
+Product owner
+
+Stories:
+--------
+USer stories: requirement of customer
+
+Product Backlogs:
+-----------------
+This is the bucket where we will keep our userstories and it would be picked up once they needed in the sprint.
+
+Scrum meeting:
+--------------
+dsm/scrum/standup meeting.
+
+1.  What we have done yesterday.
+2.  What to do today.
+3.  Any blocker.
+
+particpants:
+DEveloper
+QA
+BA
+Devops
+scrummaster
+
+Retrospective meeting:
+----------------------
+last day of the sprint.
+
+What went good
+What went bad
+Any suggestion
+
+
+6302968665 whatsapp
+
+=================================================
+Product backlog
+--------------
+
+200 stories
+
+sprint 1-->5 user stories.
+sprint 2-->10 user stories
+
+
+Burn Down chart:
+----------------
+
+FAcebook:
+A--->Login(there is an issue in login)
+It created bug ticker FS-234434  Developer-->Jn progress
+
+B-->Reel
+-------------------------------------------------
+
+Azure Repo:
+-----------
+Storage of the code.
+
+Developer will beusing this space to store their code.
+
+azure devops account:  Azure board, azure repo, build pipeline, artifact, release pipelline.
+azure cloud account:  app services, functionapp, sql, vm, etc.
+
+Azure devops(ADO):
+dev.azure.com
+
+Azure repo:
+
+ACcenture:
+FE
+Main Branch 5000 LOC
+NaveenBranch  1500 LOC
+MAheshBranch 2000 LOC
+
+REPO:
+creating branch
+creating pull request
+
+github:
+UI:
+CMD
+
+git branch branchname
+
+
+Assignment:
+1.  create the account in azure devops
+2.  create the organization and project.
+3.  Create below two repo:
+FE
+BE
+4.  Add 2 branches in each
+FE--->A barnch and B branch
+BE--> X branch and Y brancch
+
+
+
+
+azuretraininghyd1@gmail.com
+
+
+live code: MAin branch 5000 LOC
+facebook login page does not work:
+developer-->debug
+devleloper--->pull request to get the latest code from main to his(developer) branch 5000
+developer 5010 LOC--->main branch(pull request)
+main branch 5010 LOC
+
+Workitems:
+---------
+
+Userstories:  Requirements
+Task
+EPIC
+issue/bug
+
+---------------
+Facebook login page
+1.  Correct username and incorrect pwd
+2.  Incorrect username and correct pwd
+3.  blank username and corredtpwd
+4.  blank username and incorrectpwd
+5.  correct us and blank pwd
+6.  blank us and blank pwd
+7.  incorrect us and blank pwd
+8.  incorrect us and incorrec pwd
+
+9.  Username should be only accepting
+
+NareshIT training EPIC
+1.  Azure devops
+2  AWS devops
+3.  datascience
+4.  java
+
+Assignment:
+1.  Create three branches A, B , and C
+2.  MAke some changes to individual branches
+3.  Merge from A to main
+4.  MErgre from B to main
+5.  Merge from MAin to C.
+6.  Merge from A to C.
+Avoid merge conflict(using different content)
+
+azuretraininghyd1@gmail.com
+
+ 6302968665
+----------------------------------------------------------------
+
+Azure Board:
+
+
+
+
+EPIC
+issues/bug/defect
+task
+
+USer is able to login with wrong password in facebook
+
+TO do
+in progress/Doing
+Done
+
+
+MS AZURE + DEVOPS @ 7:30 AM (IST) By Mr.Naveen
+Day-1 https://youtu.be/WazpM0rb3Vw
+Day-2 https://youtu.be/LY003IDH2Wo
+Day-3 https://youtu.be/DbyHiA_0iSE
+Day-4 https://youtu.be/kb4N5dqR-4Y
+Day-5 https://youtu.be/moHLEZpitM0
+Day-6 https://youtu.be/HkLW7qAqQZs
+Day-7 https://youtu.be/y6vbIWlkVEs
+Day-8 https://youtu.be/ZqXJtp2OSsU
+
+
+
+Assignment:
+1.  Create EPIC and task.
+2.  Link it properally according to their need.
+3.  You need to take screenshot and sent it to azuretraininghyd1@gmail.com
+
+---------------------------------------------------------------------------------------------------------------------------
+
